@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(59, 59, 59), rgb(27, 27, 27), rgb(27, 27, 27), rgb(27, 27, 27), rgb(27, 27, 27), rgb(27, 27, 27), rgb(27, 27, 27), rgb(27, 27, 27));
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+button{
+    border: none;
+}
+
+#giphyForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.giphySearch{
+    height: 40px;
+    border: none;
+    border-radius: 5%;
+    margin-right: 5px;
+    padding-left: 12px;
+}
+
+.giphySearch:focus{
+    outline: none;
+}
+
+.searchBtn{
+    background-color: rgb(63, 63, 63);
+    height: 45px;
+    width: 120px;
+    color: white;
+    border-radius: 5%;
+}
+
+.searchBtn:hover{
+    border: 3px solid rgba(48, 113, 235, 0.9);
+    background-color: rgb(39, 39, 39);
+    border-radius: 7%;
+}
+
+
+.removeBtn{
+    background-color: rgb(250, 73, 73);
+    height: 45px;
+    width: 130px;
+    color: white;
+    border-radius: 7%;
+    margin-left: 5px;
+}
+
+.removeBtn:hover{
+    border: 3px solid rgba(48, 113, 235, 0.9);
+    background-color: rgb(253, 37, 37);
+    border-radius: 7%;
+}
+
+#giphyImages{
+    margin-top: 35px;
+    margin-left: 15%;
+    margin-bottom: 25px;
+}
+
+.img-Size{
+    width: 25%;
+    height: 25%;
+    margin: 10px;
+}
